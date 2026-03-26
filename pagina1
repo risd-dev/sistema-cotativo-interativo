@@ -1,0 +1,10 @@
+<input id="valor" placeholder="Digite a cotação">
+<button onclick="enviar()">Enviar</button>
+
+<script>
+function enviar() (
+  const valor = document.getElementById("valor").value;
+  localStorage.setItem("cotacao", valor);
+  window.location.href = "pagina2.html";
+)
+</script>
